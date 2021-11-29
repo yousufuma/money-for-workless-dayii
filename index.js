@@ -18,6 +18,6 @@ app.all("*", function (req, res, next) {
 //Set a global variable for storing messages
 global.userChageData = [];
 
-let port = process.env.port || 9025;
-app.listen(post);
+// let port = process.env.port || 9025;
+// app.listen(post);
 
